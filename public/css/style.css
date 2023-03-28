@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    height: auto;
+
+}
+
+.title-h2 {
+    color: linear-gradient(to right,
+    #2948ff,
+    #396afc);
+color: #fff;
+text-align: center;
+    text-align: center;
+}
+
+.part-1 {
+    width: 100%;
+    height: 400px;
+    background-color: #2948ff;
+
+}
+
+.criteria {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 60px;
+    background-image: url(../images/icon-chat-luong.png) ;
+    background-size: cover;
+}
+
+.title-criteria {
+    width: 100px;
+  padding-top: 50px;
+  padding-left: 70px;
+  font-size: 13px;
+}
+
+.service-section .title1 {
+    max-width: 100%;
+    overflow: hidden;
+}
+.service-section .title1 h2:after, 
+.service-section .title1 h2:before {
+    content: " ";
+    width: 70%;
+    position: absolute;
+    border-width: 1px;
+    border-color: #3c3f90;
+    top: 15px;
+    height: 6px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    left: 100px;
+}
+.service-section .title1 h2 {
+    color: #3c3f90;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 12px;
+    position: relative;
+    display: inline-block;
+    line-height: 34px!important;
+    margin: 0;
+}
+.news{
+    display: flex;   
+    flex-direction: row;            /* Thiết lập hướng chính */
+    flex-wrap: nowrap;              /* Thiết lập chế độ wrap, khi các phần tử vượt qua kích thước hướng chính*/
+    justify-content: flex-end;      /* Căn chỉnh nội dung bên trong container có flexbox*/
+    align-items: stretch;           /* Căn chỉnh phần tử con theo hướng vuông góc hướng chính*/
+    align-content: stretch;  
+}
+
+
+#scrolltoTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #3c3f90;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #scrolltoTop:hover {
+    background-color: #555;
+  }
